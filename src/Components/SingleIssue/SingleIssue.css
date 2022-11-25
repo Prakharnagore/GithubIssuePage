@@ -1,0 +1,65 @@
+/* ------------------SINGLE ISSUE STYLES----------------- */
+
+.main_container .single_issue_heading {
+  padding: 0px 0px 20px;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.main_container .single_issue_heading p {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.main_container .single_issue_heading small {
+  color: rgb(74, 74, 74);
+  font-weight: 500;
+}
+
+.main_container .single_issue {
+  display: flex;
+  padding: 20px 0px 50px;
+}
+
+.main_container .single_issue.main_container div {
+  width: 100%;
+}
+
+/* ------------ SINGLE ISSUE COMMENT CARD -------------- */
+.comment_card {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.comment_card .userimage {
+  min-width: 30px;
+  max-width: 30px;
+  margin-right: 20px;
+}
+.comment_card .userimage img {
+  width: 100%;
+  border-radius: 50% !important;
+}
+.comment_card .comment {
+  border: 1px solid rgb(224, 224, 224);
+  border-radius: 8px;
+}
+.comment_card .comment p {
+  padding: 10px 20px;
+  font-size: 14px;
+
+  line-break: anywhere;
+}
+.comment_card .comment p:first-child {
+  background-color: #f6f8fa;
+  border-bottom: 0.1px solid rgb(224, 224, 224);
+  font-weight: 500;
+}
+
+.comment_card .comment p:last-child {
+  padding: 20px;
+  line-height: 20px;
+}
+
+.comment_card .comment span {
+  color: rgb(74, 74, 74);
+}

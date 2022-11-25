@@ -1,0 +1,62 @@
+/* ------------TOP HEADER STYLES------------- */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #24292f;
+  color: #fff;
+}
+header p {
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.2px;
+}
+header .logo {
+  font-size: 30px;
+  margin-right: 15px;
+}
+header .user_logo {
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+/* ------------BOTTOM HEADER STYLES------------ */
+.bottom_header {
+  display: flex;
+  padding: 20px;
+  background-color: #f6f8fa;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.bottom_header p {
+  margin: 0px 10px;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  color: #0969da;
+}
+.bottom_header .icon {
+  color: rgb(107, 107, 107);
+  font-size: 20px;
+  position: relative;
+  top: 6px;
+}
+
+.bottom_header p span {
+  font-weight: 600;
+}
+
+.bottom_header small {
+  padding: 3px 7px;
+  border-radius: 14px;
+  border: 0.1px solid rgb(218, 218, 218);
+  color: rgb(79, 79, 79);
+  margin-left: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  .main_container {
+    padding: 50px 20px;
+  }
+}

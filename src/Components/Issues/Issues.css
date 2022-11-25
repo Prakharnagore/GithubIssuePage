@@ -1,0 +1,92 @@
+/* -------------------ISSUES STYLES------------------ */
+
+.main_container .issues {
+  border-radius: 4px;
+  border: 1px solid #e1e1e1;
+}
+
+.main_container .issues_header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  color: rgb(22, 22, 22);
+  background-color: #f6f8fa;
+  border-bottom: 1px solid #e1e1e1;
+}
+.main_container .issue_icon {
+  font-size: 22px;
+}
+
+.main_container .issues_header p {
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* -----------------ISSUES CARD----------------- */
+
+.main_container .issue_card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 20px;
+  border-bottom: 1px solid #e1e1e1;
+}
+.main_container .issue {
+  display: flex;
+}
+.main_container .issue_card .issue_icon {
+  color: red;
+  margin-right: 10px;
+}
+.main_container .issue_card .issue .title {
+  display: flex;
+  flex-direction: column;
+}
+.main_container .issue_card .issue .title a {
+  text-decoration: none !important;
+}
+.main_container .issue_card .issue .title p:last-child {
+  color: rgb(131, 131, 131);
+  font-size: 12px;
+  font-weight: 500;
+  margin-right: 10px;
+}
+.main_container .issue_card .issue .title p:first-child {
+  color: rgb(39, 39, 39);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.main_container .issue_card .comment small {
+  margin-left: 10px;
+}
+
+.main_container .issue_card .title span.label {
+  display: inline-block;
+  margin: 0px 5px;
+  padding: 3px 8px;
+  border-radius: 10px;
+  font-size: 10px;
+  color: #fff;
+}
+
+.main_container .issue_card .comment a {
+  width: 50px;
+  display: flex;
+  align-items: center;
+  color: rgb(131, 131, 131);
+}
+.main_container .issue_card .comment a {
+  text-decoration: none;
+}
+
+.e7e7e7,
+.d4c5f9,
+.fef2c0,
+.fffde7,
+.c7def8,
+.f9a798,
+.f7c6c7 {
+  color: black !important;
+}
